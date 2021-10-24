@@ -1,0 +1,64 @@
+.card {
+  max-width: 304px;
+  border-radius: 8px;
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 8px;
+  transition: .3s ease;
+  margin: 10px;
+  max-width: 570px;
+  max-width: 310px;
+
+  &:hover {
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .header {
+    width: 100%;
+    margin-bottom: 32px;
+    position: relative;
+
+    img {
+      max-width: 100%;
+    }
+  }
+  
+  .title {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .precoTotal {
+    color: #B5B5B6;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: line-through;
+    margin-bottom: 4px;
+  }
+
+  .precoDesconto {
+    color: #DA4B4F;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Inter-Semibold";
+    margin-bottom: 4px;
+  }
+
+  .parcelamento {
+    color: #B5B5B6;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 32px;
+
+    span {
+      color: #000;
+    }
+  }
+}

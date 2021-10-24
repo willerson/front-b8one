@@ -1,0 +1,33 @@
+.buttonAdd {
+  color: #fff;
+  background-color: #40B25C;
+  text-transform: uppercase;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: "Inter-bold";
+  line-height: 24px;
+  border: 0;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  transition: .3s ease;
+
+  &:hover {
+    background-color: #1C6C3E;
+  } 
+}
+
+.active {
+  background-color: #A3F9B9;
+  color: #1C1C1C;
+
+  span {
+    svg {
+      margin-right: 16px;
+    }
+  }
+
+  &:hover {
+    background-color: #A3F9B9;
+  } 
+}
