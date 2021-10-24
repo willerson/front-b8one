@@ -1,3 +1,11 @@
+# DESAFIO FRONT
+
+![Alt ou título da imagem](../front-b8one/public/img/front.png)
+
+## Tecnologias
+- [Nextjs](https://nextjs.org/)
+- [SASS](https://sass-lang.com/)
+
 ## Getting Started
 
 Clone o repositório
@@ -7,7 +15,7 @@ npm install
 # ou
 yarn
 ```
-
+depois de instalar as dependencias
 ```bash
 npm run dev
 # ou
