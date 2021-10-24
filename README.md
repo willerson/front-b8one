@@ -1,6 +1,6 @@
 # DESAFIO FRONT
 
-![Alt ou título da imagem](../front-b8one/public/img/front.png)
+![Alt ou título da imagem](https://github.com/willerson/front-b8one/blob/main/public/img/front.png)
 
 ## Tecnologias
 - [Nextjs](https://nextjs.org/)
